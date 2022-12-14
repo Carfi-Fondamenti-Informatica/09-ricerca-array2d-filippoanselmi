@@ -21,7 +21,7 @@ int main(){
     cout << lista[x] << endl;
   }
   cin >> nome;
-  int x = bodyguard(lista, nome);
+  int x = bodyguard(lista[10][20], nome[20]);
   if (x < 10) {
     cout << x;
   } else if (x == 10) {
